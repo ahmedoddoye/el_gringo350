@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Essential Meta Tags-->
+    <meta charset="UTF-8" />
+    <meta name = "title" content = "Student Portfolio" />
+    <meta name="Description" content="Student Portfolio from Ghana Communication Technology University, is a platform for students to showcaase their work(collection of projects & achievements), skills and experience in a particular field." />
+    <meta name="keywords" content="Student Portfolio, Ghana, GCTU, Ghana Communication Technology University, Projects, Achievements, Education"/>
+    <meta name="author" content="Ahmed Oddoye - +233(0)544868775" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--Open Graph(og) Meta Tags-->
+    <meta property="og:locale" content="en-US" />
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Student Portfolio"/>
+    <meta property="og:description" content="Student Portfolio from Ghana Communication Technology University, is a platform for students to showcaase their work(collection of projects & achievements), skills and experience in a particular field."/>
+    <meta property="og:image" content="https://drive.google.com/file/d/1atGZ4u99Lgd1gAzLsJ7fWxH-Q0LjYrDr/view"/><!--NECESSARY-->
+    <meta property="og:site_name" content="Student Portfolio"/>
+    <meta property="og:url" content="https://www.studentportfolio.com/"/>
+    <!--Twitter Card Meta Tag-->
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content="Student Portfolio"/>
+    <meta name="twitter:description" content="A showcase of student projects and achievements"/>
+    <meta name="twitter:image" content="https://drive.google.com/file/d/1atGZ4u99Lgd1gAzLsJ7fWxH-Q0LjYrDr/view"/><!--NECESSARY-->
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/HTML Folder/Images/Logos/Student-Portfolio logo.jpg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/HTML Folder/Images/Logos/Student-Portfolio logo.jpg"><!--NECESSARY-->
+    <link rel="icon" type="image/png" sizes="16x16" href="/HTML Folder/Images/Logos/Student-Portfolio logo.jpg"><!--NECESSARY-->
+    <!--Web page css-->
+    <link rel="stylesheet" href="Style.css">
+    <!-- Simple lightbox CSS -->
+    <link rel="stylesheet" href="/HTML Folder/Project/simple-lightbox.min.css" />
+    
+    <title>Project Showcaase</title>
+<style>
+    * Global Styles */
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    
+    /* Responsive Design */
+    
+    /* Mobile Devices (max-width: 768px) */
+    
+    @media only screen and (max-width: 768px) {
+      body {
+        font-size: 14px;
+      }
+      header, nav, main, section, article, aside, footer {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+    }
+    
+    /* Tablets and Small Laptops (min-width: 769px) and (max-width: 992px) */
+    
+    @media only screen and (min-width: 769px) and (max-width: 992px) {
+      body {
+        font-size: 16px;
+      }
+      header, nav, main, section, article, aside, footer {
+        width: 90%;
+        padding: 20px;
+        margin: 0 auto;
+        box-sizing: border-box;
+      }
+    }
+    
+    /* Large Laptops and Desktops (min-width: 993px) */
+    
+    @media only screen and (min-width: 993px) {
+      body {
+        font-size: 18px;
+      }
+      header, nav, main, section, article, aside, footer {
+        width: 80%;
+        padding: 20px;
+        margin: 0 auto;
+        box-sizing: border-box;
+      }
+    }
+    
+    /* Additional Styles */
+    
+    img {
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: bold;
+      color: #333;
+    }
+    
+    a {
+      text-decoration: none;
+      color: #337ab7;
+    }
+    
+    a:hover {
+      color: #23527c;
+    }
+    
+    button, input[type="submit"] {
+      background-color: #337ab7;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    
+    button:hover, input[type="submit"]:hover {
+      background-color: #23527c;
+    }
+   </style> 
+
+</head>
+<body>
+    <section id="home">
+        <div id="header">
+        <header>
+            <nav>
+                <a href="#" class="logo">
+                  <h1>
+                    <span class="student">Student </span><span class="portfolio">Portfolio</span>
+                    
+                  </h1>
+                </a>
+
+                <!-- Dark/light theme switcher -->
+      <div class="theme-switch">
+        <input type="checkbox" class="checkbox" id="checkbox" />
+        <label for="checkbox" class="label">
+            <ion-icon name="sunny-outline" class="sun"></ion-icon>
+            <ion-icon name="moon-outline" class="moon"></ion-icon>
+          <div class="switcher"></div>
+        </label>
+      </div>
+
+      <ul>
+        <li class="nav-item">
+          <a href="Index.html" class="nav-link" id="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="Index.html" class="nav-link" id="nav-link">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a href="#porfolio" class="nav-link" id="nav-link">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a href="Index.html" class="nav-link" id="nav-link">Contact</a>
+        </li>
+      </ul>
+ <!-- Bars -->
+ <div class="hamburger" id="hamburger">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </div>
+</nav>
+    </header>
+    </div>
+</section>
+
+        <!-- Home section -->
+         <section>
+          <font sizes="10px" color="blue" face="comic sans ms">
+            <p>
+        COMING SOON
+            </p>
+          </font >
+         </section>
+        
+             <!-- Web page script -->
+      <script src="/HTML Folder/Project/home.js"></script>
+
+      <!-- Ion icons CDN -->
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
+    </script>
+
+  <!-- Simple lightbox -->
+  <script src="/HTML Folder/Project/simple-lightbox.min.js"></script>
+  <script>
+    var lightbox = new SimpleLightbox(".stars-gallery a");
+  </script>
+
+<script src="script.js"></script>
+</body>
+</html>
